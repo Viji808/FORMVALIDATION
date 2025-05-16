@@ -1,0 +1,101 @@
+body{
+  background-color:cornflowerblue;
+  font-family: 'Jost', sans-serif;
+  background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+}
+#student-register-form{
+    width:350px;
+    height: max-content;
+    border: solid 3px black;
+    background: url("https://doc-08-2c-docs.googleusercontent.com/docs/securesc/68c90smiglihng9534mvqmq1946dmis5/fo0picsp1nhiucmc0l25s29respgpr4j/1631524275000/03522360960922298374/03522360960922298374/1Sx0jhdpEpnNIydS4rnN4kHSJtU1EyWka?e=view&authuser=0&nonce=gcrocepgbb17m&user=03522360960922298374&hash=tfhgbs86ka6divo3llbvp93mg4csvb38") no-repeat center/ cover;
+    box-shadow: 5px 20px 50px #000;
+    margin-top: 150px;
+    margin-left: 650px;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+   font-weight: bold;
+
+
+}
+label{
+    width:px;
+}
+img{
+    width: 200px;
+    height: 150px;
+    margin-left: 80px;
+    margin-top: 12px;   
+}
+
+.h1inform{
+    color: #fff;
+	font-size: 2.3em;
+	justify-content: center;
+	display: flex;
+	margin: 15px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: .5s ease-in-out;
+
+}
+.h1intable{
+    color: #fff;
+    font-size: 2.3em;
+    justify-content: center;
+    display: flex;
+    margin: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+	background: #6d44b8;
+}
+table,th,td{
+    border: solid 1px black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+table{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 100%;
+}
+.delete-btn{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#submitted{
+   
+    background-color:aqua;
+    color: black;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.col-sm-6{
+    width: 600px;
+    border: solid;
+    border-radius: 25px;
+    margin-left: 110px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: azure;
+    opacity: 0.8;
+    box-shadow: 5px 20px 50px #000;
+    font-weight: bold;
+}
+.section-title{
+    color:#6d44b8;
+  
+    font-size: 2.3em;
+    justify-content: center;
+    display: flex;
+    margin: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}

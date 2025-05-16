@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDENT FORM</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="form-container">
+       
+      
+    <form id="student-register-form" >
+ <h1 class="h1inform">Registration Form</h1>
+ <label for="name" style="font-size: 20px;">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="age" style="font-size: 20px;">Age:</label>
+        <input type="number" id="age" name="age" required><br><br>
+
+        <label for="Gender" style="font-size: 20px;">Gender</label>
+        <input type="radio" name="gender" value="Male" >Male<input type="radio" name="gender" value="Female">Female
+        <br><br>
+        <label for="course" style="font-size: 20px;">Course:</label>
+        <select id="course" name="course" required>
+            <option value="" disabled selected>Select an option</option>
+            <option value="javascript">javascript</option>
+            <option value="python">Python</option>
+            <option value="java">Java</option>
+        </select>
+        <br><br>
+        <label for="E-mail" style="font-size: 20px;">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+        <br?><br>  <br?><br>
+        <button type="submit" style="width: 100%;height: 30px;" id="submitted" >Submit</button>
+  <img src="image.png" class="submit" id="submit" alt="submit"/>
+    </form>
+</div>
+
+
+
+<!-- table creation-->
+
+    <br><br>
+    <div class="tablee">
+        <h1 class="h1intable"> Student List</h1>
+    <table id="table-body" style="background-color: blanchedalmond;">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Gender</th>
+            <th>Course</th>
+            <th>E-mail</th>
+            <th>Action</th>
+        </tr>
+        <tr>
+            
+        </tr>
+    </table>
+
+    <div class="col-sm-6">
+
+                    <h3 class="section-title" >Form Overview</h3>
+
+                    <p style="font-family: Georgia, 'Times New Roman', Times, serif;">This registration form allows users to enter their personal details including Name, Age, Gender, Course, and Email. The form ensures that all fields are properly filled before allowing submission — preventing empty inputs and invalid email formats. Once submitted, the data is added to the table below and the form is reset for new registrations.
+
+Users can select from three available courses: JavaScript, Python, or Java.
+
+If any information in the table is incorrect or needs to be removed, a Delete button is provided in each row to allow easy removal of that entry.
+
+</b></p>
+
+                    </p>
+                   
+
+                </div><!-- /.col-sm-6 -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
